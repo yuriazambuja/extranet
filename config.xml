@@ -1,0 +1,22 @@
+<widget id="br.com.mpl.extranet" version="1.0" versionCode="1">
+  <platform name="android" />
+  <name>Extranet MPL</name>
+  <icon src="www/icon.png" />
+  <preference name="permissions" value="none" />
+  <preference name="prerendered-icon" value="true" />
+  <preference name="phonegap-version" value="cli-7.0.1" />
+  <preference name="android-windowSoftInputMode" value="adjustPan" />
+  <preference name="SplashScreenDelay" value="3000" />
+  <preference name="AutoHideSplashScreen" value="false" />
+  <preference name="SplashShowOnlyFirstTime" value="false" />
+  <preference name="FadeSplashScreen" value="false" />
+  <preference name="ShowSplashScreenSpinner" value="false" />
+  <preference name="DisallowOverscroll" value="true" />
+  <preference name="StatusBarOverlaysWebView" value="false" />
+  <preference name="StatusBarStyle" value="default" />
+  <preference name="StatusBarBackgroundColor" value="#FFD700" />
+  <preference name="android-minSdkVersion" value="15" />
+  <preference name="android-targetSdkVersion" value="26" />
+  <plugin name="cordova-plugin-whitelist" />
+  <access origin="*" />
+</widget>
